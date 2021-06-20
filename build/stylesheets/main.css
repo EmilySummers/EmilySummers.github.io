@@ -628,10 +628,12 @@ h3 {
 @media (max-width: 575px) {
   .banner, .inner-hero {
     background-image: url("../../assets/hero10-vertical.jpg");
+    background-size: contain;
   }
 
   #projects, #interests {
     background-image: url("../../assets/hero10-vertical-mob.jpg");
+    background-size: contain;
   }
 
   .square .main-title h1 {
