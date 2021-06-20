@@ -2,42 +2,58 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>Emily Summers</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Portfolio of Emily Summers - Web Developer" />
+  <title>Emily Summers | Developer</title>
   <script src="scripts/app.js"></script>
   <script src="https://kit.fontawesome.com/163ab5b275.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="./build/stylesheets/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
   <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400&family=Poppins:wght@200;300;400&family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400&family=Poppins:wght@200;300;400&family=Montserrat:wght@200;300;400;500;600;700&display=swap"
     rel="stylesheet">
+  <link rel="icon" href="https://res.cloudinary.com/dqrkw1z1a/image/upload/v1623254043/portfolio/favicon_tr6m2x.png">
 </head>
 
 <body>
 
   <header>
-    <div class="hero">
-      <nav>
-        <a href="#about">About</a>
-        <a href="#tech">Skills/Technologies</a>
-        <a href="#projects">Projects</a>
-        <a href="#interests">Interests</a>
-        <a href="#contact">Contact</a>
+    <div class="banner">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <p class="navbar-burger">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </p>
+          </div>
+          <div class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="#about">About</a>
+              <a class="navbar-item" href="#tech">Skills/Technologies</a>
+              <a class="navbar-item" href="#projects">Projects</a>
+              <a class="navbar-item" href="#interests">Interests</a>
+              <a class="navbar-item" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
       </nav>
       <div class="inner-hero">
-        <div class="container">
-          <div class="box">
-
-            <div class="title">
-              <span class="block"></span>
+        <div class="holder">
+          <div class="square">
+            <div class="main-title">
+              <span class="wedge"></span>
               <h1>Emily Summers<span></span></h1>
             </div>
-
             <div class="role">
-              <div class="block"></div>
-              <p>Web Developer</p>
+              <div class="wedge"></div>
+              <p>Developer</p>
             </div>
-
           </div>
         </div>
       </div>
@@ -56,21 +72,16 @@
         or sparks joy within them, is my biggest motivation.</p>
       <p>Last year, I decided to teach myself to code, initially completing coding courses online as a hobby, until I
         decided that I wanted to be able to dedicate more time to coding. I decided to take the plunge and change my
-        career, so I applied for the Software Engineering Immersive course at General Assembly. Being able to work
-        collaboratively, in an environment that encourages teamwork, felt very refreshing and the course has taught me a
+        career, so I applied for the Software Engineering Immersive course at General Assembly.</p>
+      <p>Being able to work collaboratively, in an environment that encourages teamwork, felt very refreshing and the
+        course has taught me a
         range of techniques that have strengthened my problem-solving skills and enhanced my logical reasoning and
         creative thinking. My experience at GA has proven to me just how much knowledge I can absorb in a small period
-        of
-        time and I have developed a hunger for learning that I will take with me into my future roles.</p>
+        of time and I have developed a hunger for learning that I will take with me into my future roles.</p>
       <p>I am now looking to secure a junior developer position in a company that shares my desire for innovation and
         determination to have a positive impact on society.</p>
     </div>
   </section>
-  <!-- <div class="layer">
-    <img src="assets/graphic.png" />
-    <img src="assets/graphic.png" />
-    <img src="assets/graphic.png" />
-  </div> -->
   <section id="tech">
     <h3>S K I L L S</h3>
     <div class="all-skills">
@@ -150,9 +161,6 @@
   </section>
   <section id="projects">
     <div class="all-projects">
-      <!-- <div class="wrapper">
-        <h1 contenteditable data-heading="Projects">Projects</h1>
-      </div> -->
       <h3>P R O J E C T S</h3>
       <div class="project">
         <img class="mockup" src="assets/apex-mockup.png" alt="apex screenshot" />
@@ -165,8 +173,11 @@
             <i class="devicon-css3-plain"></i>
             <i class="devicon-sass-original"></i>
           </div>
-          <p>An interactive and fully responsive website created for Apex Property Management to market their services and provide information about their company. The site also has an interactive contact page, blog and login link for their client portal.</p>
-          <p>This website was built using HTML, CSS and JavaScript. I individually designed, built and deployed the website and created and implemented an SEO strategy.</p>
+          <p>An interactive and fully responsive website created for Apex Property Management to market their services
+            and provide information about their company. The site also has an interactive contact page, blog and login
+            link for their client portal.</p>
+          <p>This website was built using HTML, CSS and JavaScript. I individually designed, built and deployed the
+            website and created and implemented an SEO strategy.</p>
           <div class="project-links">
             <a href="https://apexpm.uk" target="_blank" target="_blank">
               <p>⇢ Go to apexpm.uk</p>
@@ -366,12 +377,5 @@
       <p>linkedin.com/in/emily~summers/</p>
     </a>
   </section>
-  <!-- <div class="layer">
-      <img src="assets/graphic.png" />
-      <img src="assets/graphic.png" />
-      <img src="assets/graphic.png" />
-  </div> -->
-
 </body>
-
 </html>
