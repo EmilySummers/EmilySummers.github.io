@@ -143,7 +143,7 @@ html, body {
 }
 
 #projects {
-  background-image: url("../../assets/hero10-vertical2.jpg");
+  background-image: url("../../assets/hero10-vertical.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -394,7 +394,7 @@ nav.navbar a {
 #interests {
   display: flex;
   flex-direction: column;
-  background-image: url("../../assets/hero10-vertical2.jpg");
+  background-image: url("../../assets/hero10-vertical.jpg");
   background-size: cover;
   background-attachment: fixed;
   /* color: #FF938E; */
@@ -626,6 +626,14 @@ h3 {
   }
 }
 @media (max-width: 575px) {
+  .banner, .inner-hero {
+    background-image: url("../../assets/hero10-vertical.jpg");
+  }
+
+  #projects, #interests {
+    background-image: url("../../assets/hero10-vertical-mob.jpg");
+  }
+
   .square .main-title h1 {
     font-size: 30px;
   }
