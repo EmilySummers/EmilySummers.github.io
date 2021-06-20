@@ -630,12 +630,7 @@ h3 {
     background-image: url("../../assets/hero10-vertical.jpg");
   }
 
-  #projects {
-    background-image: none;
-    background: linear-gradient(#000E28, #00254F);
-  }
-
-  #interests {
+  #projects, #interests {
     background-image: none;
     background: linear-gradient(#00254F, #000E28);
   }
