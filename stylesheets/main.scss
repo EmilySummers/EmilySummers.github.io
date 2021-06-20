@@ -705,12 +705,12 @@ h3 {
 @media (max-width: 575px) {
   .banner, .inner-hero {
     background-image: url('../../assets/hero10-vertical.jpg');
-    background-size: contain;
+    background-size: 100vh;
   }
   
   #projects, #interests {
     background-image: none;
-    background: linear-gradient($lb, $navy);
+    background-color: $lb;
   }
 
   .square .main-title h1 {
