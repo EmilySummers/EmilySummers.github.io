@@ -628,7 +628,6 @@ h3 {
 @media (max-width: 575px) {
   .banner {
     background-image: url("../../assets/hero10-vertical.jpg");
-    background-size: 100vw 100vh;
   }
 
   #projects, #interests {
