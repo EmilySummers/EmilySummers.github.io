@@ -703,10 +703,9 @@ h3 {
 // MOBILE
 
 @media (max-width: 575px) {
-  .banner, .inner-hero {
+  .banner {
     background-image: url('../../assets/hero10-vertical.jpg');
     background-size: 100vw 100vh;
-    background-attachment: auto;
   }
   
   #projects, #interests {
