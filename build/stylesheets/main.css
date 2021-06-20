@@ -629,11 +629,13 @@ h3 {
   .banner, .inner-hero {
     background-image: url("../../assets/hero10-vertical.jpg");
     background-size: 100vh;
+    background-attachment: auto;
   }
 
   #projects, #interests {
-    background-image: none;
-    background-color: #00254F;
+    background-image: url("../../assets/hero10-vertical.jpg");
+    background-size: 100vh;
+    background-attachment: auto;
   }
 
   .square .main-title h1 {
