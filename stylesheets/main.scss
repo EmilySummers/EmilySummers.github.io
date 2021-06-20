@@ -707,8 +707,14 @@ h3 {
     background-image: url('../../assets/hero10-vertical.jpg');
   }
 
-  #projects, #interests {
-    background-image: url('../../assets/hero10-vertical-mob.jpg');
+  #projects {
+    background-image: none;
+    background: linear-gradient($navy, $lb);
+  }
+  
+  #interests {
+    background-image: none;
+    background: linear-gradient($lb, $navy);
   }
 
   .square .main-title h1 {
